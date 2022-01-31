@@ -60,7 +60,7 @@ li {
 ul li a {
   text-decoration: none;
   color: rgb(103, 102, 102);
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-family: "Secular One", sans-serif;
 }
 ul li a:hover {
   /* :active,
@@ -100,23 +100,27 @@ hr {
 }
 #orang {
   color: hsl(26, 100%, 55%);
-  font-size: 1.8rem;
-  margin-bottom: 8%;
+  font-size: 1.5rem;
+  margin-bottom: 4%;
   margin-top: 8%;
+  font-family: "Secular One", sans-serif;
 }
 #h1 {
-  font-size: 3rem;
+  font-size: 3.3rem;
   margin-bottom: 8%;
+  font-family: "Kumbh Sans", sans-serif;
 }
 #partie {
-  padding: 2%;
-  margin-left: -23%;
+  padding: 4%;
+  margin-left: -27%;
+  margin-right: 2%;
   /* padding-right: 8%; */
 }
 h5 {
-  color: gray;
+  color: rgba(128, 128, 128, 0.8);
   margin-bottom: 8%;
-  font-size: 2rem;
+  font-size: 1.8rem;
+  font-family: "Secular One", sans-serif;
 }
 h2 {
   color: hsl(26, 100%, 55%);
@@ -141,6 +145,7 @@ h2 {
   font-size: 2rem;
   border-radius: 15%;
   margin-top: 1%;
+  cursor: pointer;
 }
 
 .trees {
@@ -162,8 +167,9 @@ h2 {
   border-radius: 7px;
   background-color: hsl(26, 100%, 55%);
   color: white;
-  margin-left: 12rem;
+  margin-left: 11rem;
   margin-top: -4.3rem;
+
   font-size: 1.8rem;
   font-family: monospace;
   box-shadow: 0px 12px 15px hsl(25, 83%, 84%);
@@ -477,7 +483,7 @@ header #clo:hover path {
   #pass6 {
     position: absolute;
     background-color: white;
-    margin-top: -21%;
+    margin-top: -23%;
     width: 20rem;
     height: 101.5vh;
     box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.1),
